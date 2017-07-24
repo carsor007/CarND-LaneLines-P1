@@ -73,13 +73,9 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+One potential shortcoming is when there is a turn encountered, the lane lines are not accurate.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+A possible improvement for this is to include the positional relationship of the car to identify the left and right lanes. Right now, the left and right lanes are identified using their slope.
